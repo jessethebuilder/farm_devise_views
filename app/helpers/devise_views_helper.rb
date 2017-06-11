@@ -3,6 +3,10 @@ module DeviseViewsHelper
     render partial: 'farm_devise_views/sessions/new'
   end
 
+  def sign_up_view
+    render partial: 'farm_devise_views/registrations/new'
+  end
+
   def new_password_view
     render partial: 'farm_devise_views/passwords/new'
   end
